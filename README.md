@@ -1,3 +1,6 @@
+# angular-2-route-guard-from-scotch
+angular-2-route-guard-from-scotch
+
 # AngulartwoRouteGuardFromScotch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
