@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
+import { SuperDuperComponent } from './super-duper/super-duper.component';
 
-const routes: Routes = [];
+const routes: Routes = [{
+  path: '',
+  component: DashboardHomeComponent,
+  children: [
+    {
+      path: 'super-duper',
+      component: SuperDuperComponent
+    }
+  ]
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
